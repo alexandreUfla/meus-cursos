@@ -25,6 +25,7 @@ while continuar_loop:
     match func:
         case 0:
             continuar_loop = False
+            break
             exit
         case 1:
             print('---------------------------------------------------------------------------')
@@ -39,6 +40,7 @@ while continuar_loop:
             print(f"\tDivisão \t\t\t/")
             print(f"\tPotência \t\t\t^ ou **")
             print(f"\tRaiz Quadrada \t\t\traiz ou sqrt")
+            print('\n')
             print('---------------------------------------------------------------------------')
             x1 = float(input('Insira o primeiro operando: ')) 
             op = str(input('Operação desejada: '))
