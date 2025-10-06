@@ -1,6 +1,6 @@
 # Projeto: Calculadora
 # Autor: Alexandre Reis Francisco Júnior
-# Primeiro projeto em python
+# Primeiro projeto em python. Calculadora simples.
 
 import math
 
